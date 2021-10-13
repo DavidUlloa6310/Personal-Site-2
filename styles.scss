@@ -1,0 +1,371 @@
+$accent_blue: #0892D0;
+$white: white;
+$primary_black: #2A2A35;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+// NAVAR
+nav {
+
+    padding: 20px;
+    color: $accent_blue;
+    background-color: $primary_black;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    h3 {
+        padding: 20px;
+        cursor: pointer;
+    }
+
+}
+
+.burger {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.line {
+    min-height: 12px;
+    min-width: 50px;
+    border-radius: 5px;
+    background-color: $accent_blue;
+    margin: 2px;
+}
+
+// GENERAL SECTIONS 
+.dark-bg, .white-bg, .blue-bg {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+// DARK SECTION CSS
+.dark-bg {
+    background-color: $primary_black;
+    color: white;
+}
+
+.intro-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+
+.inro h1, .intro h2, .intro h3 {
+    padding: 10px
+}
+
+.blue-btn {
+    outline: 2px solid $accent_blue;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+
+    margin: 10px;
+    padding: 10px 20px;
+
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 800;
+    font-size: 1.5em;
+    color: $accent_blue;
+    
+    cursor: pointer;
+}
+
+.intro-img {
+    width: 250px;
+    height: auto;
+}
+
+.white-circle {
+    width: 350px;
+    height: 350px;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 10px solid $accent_blue;
+}
+
+.custom-shape-divider-bottom-1630940819 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1630940819 svg {
+    position: relative;
+    display: block;
+    width: calc(178% + 1.3px);
+    height: 289px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1630940819 .shape-fill {
+    fill: #0892D0;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1630940819 svg {
+        width: calc(239% + 1.3px);
+        height: 163px;
+    }
+}
+
+// BLUE SECTION CSS
+.blue-bg {
+    background-color: $accent_blue;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p {
+        font-size: 1.5em;
+    }
+}
+
+.skills-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    div {
+        padding: 20px;
+    }
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    background-color: $primary_black;
+    margin: 20px;
+}
+// WHITE SECTION CSS
+.white-bg {
+    padding-top: 200px;
+    background-color: $white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: bold;
+    }
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: $primary_black;
+
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: auto;
+    height: 650px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, .5));
+
+
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    padding: 5px;
+    height: auto;
+}
+
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.custom-shape-divider-top-1630782338 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1630782338 svg {
+    position: relative;
+    display: block;
+    width: calc(190% + 1.3px);
+    height: 232px;
+}
+
+.custom-shape-divider-top-1630782338 .shape-fill {
+    fill: #0892D0;
+}
+
+// BLACK CONTACT SECTION
+
+.contact-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+    form {
+        div {
+            display: flex;
+            flex-direction: column;
+
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+
+            width: 100vh;
+
+            input, textArea {
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            input {
+                width: 30%;
+                height: 50px;
+            }
+            
+            textArea {
+                width: auto;
+                resize: none;
+                width: 300px;
+                height: 300px;
+            };
+        }
+    }
+}
+
+.blue {
+    color: $accent_blue;
+}
+
+.custom-shape-divider-top-1630782380 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1630782380 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 232px;
+}
+
+.custom-shape-divider-top-1630782380 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+
+    nav h3 {
+        font-size: 1em;
+    }
+
+    .intro {
+        text-align: center;
+    }
+    
+    .white-circle {
+        margin: 20px;
+    }
+
+    .about-me-text {
+        width: 70%;
+        p {
+            font-size: 1em;
+            padding: 20px;
+        }
+    }
+}
