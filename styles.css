@@ -321,9 +321,9 @@ nav h3 {
   background-color: #2a2a35;
   margin: 20px;
   padding: 20px;
-  max-width: 400px;
+  max-width: 350px;
   width: auto;
-  height: 650px;
+  height: 600px;
   border-radius: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,7 +343,7 @@ nav h3 {
 }
 
 .logo {
-  width: 90px;
+  width: 70px;
   height: auto;
   padding: 5px;
   height: auto;
