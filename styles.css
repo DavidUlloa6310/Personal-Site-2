@@ -23,15 +23,24 @@ h3 {
   font-size: 2em;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0892d0;
 }
 
 nav {
   padding: 20px;
-  color: #0892D0;
-  background-color: #2A2A35;
-  font-family: 'Roboto', sans-serif;
+  color: #0892d0;
+  background-color: #2a2a35;
+  font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,11 +79,13 @@ nav h3 {
   min-height: 12px;
   min-width: 50px;
   border-radius: 5px;
-  background-color: #0892D0;
+  background-color: #0892d0;
   margin: 2px;
 }
 
-.dark-bg, .white-bg, .blue-bg {
+.dark-bg,
+.white-bg,
+.blue-bg {
   min-height: 100vh;
   position: relative;
   display: -webkit-box;
@@ -92,7 +103,7 @@ nav h3 {
 }
 
 .dark-bg {
-  background-color: #2A2A35;
+  background-color: #2a2a35;
   color: white;
 }
 
@@ -111,21 +122,23 @@ nav h3 {
   padding-bottom: 200px;
 }
 
-.inro h1, .intro h2, .intro h3 {
+.inro h1,
+.intro h2,
+.intro h3 {
   padding: 10px;
 }
 
 .blue-btn {
-  outline: 2px solid #0892D0;
+  outline: 2px solid #0892d0;
   border: none;
   background: transparent;
   text-decoration: none;
   margin: 10px;
   padding: 10px 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 1.5em;
-  color: #0892D0;
+  color: #0892d0;
   cursor: pointer;
 }
 
@@ -148,7 +161,7 @@ nav h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  border: 10px solid #0892D0;
+  border: 10px solid #0892d0;
 }
 
 .custom-shape-divider-bottom-1630940819 {
@@ -170,7 +183,7 @@ nav h3 {
 }
 
 .custom-shape-divider-bottom-1630940819 .shape-fill {
-  fill: #0892D0;
+  fill: #0892d0;
 }
 
 /** For mobile devices **/
@@ -182,7 +195,7 @@ nav h3 {
 }
 
 .blue-bg {
-  background-color: #0892D0;
+  background-color: #0892d0;
   color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -263,7 +276,7 @@ nav h3 {
       -ms-flex-align: center;
           align-items: center;
   min-width: 200px;
-  background-color: #2A2A35;
+  background-color: #2a2a35;
   margin: 20px;
 }
 
@@ -305,7 +318,7 @@ nav h3 {
 }
 
 .card {
-  background-color: #2A2A35;
+  background-color: #2a2a35;
   margin: 20px;
   padding: 20px;
   max-width: 400px;
@@ -330,7 +343,7 @@ nav h3 {
 }
 
 .logo {
-  width: 60px;
+  width: 90px;
   height: auto;
   padding: 5px;
   height: auto;
@@ -366,7 +379,11 @@ nav h3 {
 }
 
 .custom-shape-divider-top-1630782338 .shape-fill {
-  fill: #0892D0;
+  fill: #0892d0;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .contact-section {
@@ -401,7 +418,8 @@ nav h3 {
   width: 100vh;
 }
 
-.contact-section form div input, .contact-section form div textArea {
+.contact-section form div input,
+.contact-section form div textArea {
   padding: 10px;
   border-radius: 10px;
 }
@@ -419,7 +437,7 @@ nav h3 {
 }
 
 .blue {
-  color: #0892D0;
+  color: #0892d0;
 }
 
 .custom-shape-divider-top-1630782380 {
@@ -439,7 +457,7 @@ nav h3 {
 }
 
 .custom-shape-divider-top-1630782380 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
