@@ -50,7 +50,12 @@
         <h3>My name is</h3>
         <h1>David Ulloa</h1>
         <h3>Programmmer | Data Scientist | Web Developer</h3>
-        <button class="blue-btn">Contact Me</button>
+        <button
+          class="blue-btn"
+          onclick="document.getElementById('Contact').scrollIntoView()"
+        >
+          Contact Me
+        </button>
       </div>
       <div class="blue-circle">
         <div class="white-circle">
@@ -126,7 +131,7 @@
       </div>
 
       <h2>Projects</h2>
-      <div class="card-row">
+      <div class="card-grid">
         <div class="card">
           <i class="fas fa-book-open fa-5x"></i>
           <h3 class="clickable">YourPapyrs.com</h3>
@@ -162,10 +167,69 @@
             <img src="images/java.png" alt="Java" class="logo" />
           </div>
         </div>
+
+        <div class="card">
+          <img
+            src="./images/zerolimitlearning.png"
+            alt="Zero Limit Learning Logo"
+            style="width: 150px"
+          />
+          <h3 class="clickable">
+            <a href="https://www.zerolimitlearning.com"
+              >ZeroLimitLearning.com</a
+            >
+          </h3>
+          <p class="text-align-center">
+            ZeroLimitLearning is a company based on around teaching computer
+            science to children and evolving education for the 21st century.
+          </p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <img src="images/html.png" alt="HTML" class="logo" />
+            <img src="images/css.png" alt="CSS" class="logo" />
+            <img src="images/js.png" alt="JS" class="logo" />
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-lock fa-5x"></i>
+          <h3 class="clickable">
+            <a href="https://github.com/DavidUlloa6310/EncryptionForKids"
+              >Encryption 4 Kids</a
+            >
+          </h3>
+          <p class="text-align-center">
+            Encryption for kids is a program made for ZeroLimitLearning that is
+            meant to teach kids what encryption is based on encrypting and
+            decrypting paintings.
+          </p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <img src="images/java.png" alt="Java" class="logo" />
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-eye fa-5x"></i>
+          <h3 class="clickable">
+            <a href="https://github.com/DavidUlloa6310/MotionDetection"
+              >MotionDetection</a
+            >
+          </h3>
+          <p class="text-align-center">
+            The Motion Detection AI is built in Python using Pandas and OpenCV.
+            The project also records the time periods that motion was detected
+            and stores it in an excel file.
+          </p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <img src="images/python.png" alt="Python" class="logo" />
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="dark-bg contact-section">
+    <section class="dark-bg contact-section" id="Contact">
       <div class="custom-shape-divider-top-1630782380">
         <svg
           data-name="Layer 1"
